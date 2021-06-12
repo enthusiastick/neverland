@@ -172,6 +172,7 @@
 },
 {
   "id":"gentlemanStarkey",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/starkey.png",
   "edition":"custom",
   "otherNight":30,
   "otherNightReminder":"Ask the Gentleman Starkey how many seats they're advancing the Clockhand, clockwise.",
@@ -182,6 +183,7 @@
 },
 {
   "id":"captainHook",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/hook.png",
   "edition":"custom",
   "otherNight":35,
   "otherNightReminder":"The Hook may point to a player: if they're good, wake that player, and ask them to select a player with whom to trade seats.",
@@ -193,6 +195,7 @@
 },
 {
   "id":"pirateCrew",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/pirate.png",
   "edition":"custom",
   "otherNight":5,
   "otherNightReminder":"Remove the poisoned token from the previously-selected player. The Pirate points to a player: add the poisoned token to that player.",
@@ -204,6 +207,7 @@
 },
 {
   "id":"smee",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/smee.png",
   "edition":"custom",
   "setup":false,
   "name":"Smee",
