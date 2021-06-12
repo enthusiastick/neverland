@@ -1,0 +1,237 @@
+[
+{
+  "id":"_meta",
+  "name": "Never Never Land",
+  "author": "enthusiastick"
+},
+{
+  "id":"clockHand",
+  "edition":"custom",
+  "setup":false,
+  "name":"Clockhand",
+  "team":"fabled",
+  "ability":"The Storyteller's Grimoire includes a Clockhand token, placed in front of a player selected on the first night. At the start of each day (except for the first), the Clockhand proceeds one seat around the circle, clockwise."
+},
+{
+  "id":"curlyCubby",
+  "edition":"custom",
+  "otherNight":55,
+  "otherNightReminder":"Disclose to the Curly how many votes, in-total, were cast by non-Townsfolk today.",
+  "setup":false,
+  "name":"Curly",
+  "team":"townsfolk",
+  "ability":"Each night, you learn how many votes were cast by non-Townsfolk today."
+},
+{
+  "id":"wendyDarling",
+  "edition":"custom",
+  "firstNight":25,
+  "firstNightReminder":"Reveal to the Darling the role of one Outsider in play, and how many seats the Clockhand is away from that Outsider.",
+  "otherNight":45,
+  "otherNightReminder":"Reveal to the Darling how many seats the Clockhand is away from their Outsider.",
+  "reminders":["Darling's Outsider"],
+  "setup":true,
+  "name":"Darling",
+  "team":"townsfolk",
+  "ability":"You start knowing 1 Outsider role in play. Each night, you learn how many seats the Clockhand is away from that Outsider. [Minimum 1 Outsider]"
+},
+{
+  "id":"lizaMaid",
+  "edition":"custom",
+  "setup":false,
+  "name":"Liza",
+  "team":"townsfolk",
+  "ability":"While you are alive, the Storyteller might not collect vote tokens from dead good players who voted (after their votes have been counted.)"
+},
+{
+  "id":"nibs",
+  "edition":"custom",
+  "firstNight":7,
+  "firstNightReminder": "Wake an evil player, and inform them the Nibs is in play.",
+  "otherNight":60,
+  "otherNightReminder":"If the Nibs died tonight: reveal to them how many seats the Clockhand is away from the Demon.",
+  "setup":false,
+  "name":"Nibs",
+  "team":"townsfolk",
+  "ability":"If you die at night, you learn how many seats the Clockhand is away from the Demon. 1 evil player knows the Nibs is in play."
+},
+{
+  "id":"peterPan",
+  "edition":"custom",
+  "otherNight":15,
+  "otherNightReminder":"The Pan may point to a player: if they're good, wake that player, and ask them to select a player with whom to trade seats.",
+  "setup":false,
+  "name":"Pan",
+  "team":"townsfolk",
+  "ability":"Each night*, choose a player: if good, they may trade seats with a player of their choosing. While the Clockhand is pointing to you, you cannot die."
+},
+{
+  "id":"slightly",
+  "edition":"custom",
+  "setup":false,
+  "name":"Slightly",
+  "team":"townsfolk",
+  "ability":"The first time you are nominated, if the nominator is not a Townsfolk, they are executed immediately."
+},
+{
+  "id":"tigerLily",
+  "edition":"custom",
+  "firstNight":10,
+  "firstNightReminder":"The Tiger Lily may point to a player: if that player is not a Townsfolk, they die.",
+  "otherNight":25,
+  "otherNightReminder":"The Tiger Lily may point to a player: if that player is not a Townsfolk, they die.",
+  "setup":false,
+  "name":"Tiger Lily",
+  "team":"townsfolk",
+  "ability":"Once per game, at night, choose a player (other than yourself): if they are not a Townsfolk, they die."
+},
+{
+  "id":"tootles",
+  "edition":"custom",
+  "firstNight":20,
+  "firstNightReminder":"Indicate to the Tootles the total number of living Townsfolk in play.",
+  "otherNight":65,
+  "otherNightReminder":"Indicate the total number of living Townsfolk in play.",
+  "setup":false,
+  "name":"Tootles",
+  "team":"townsfolk",
+  "ability":"Each night, you learn how many Townsfolk are alive."
+},
+{
+  "id":"twins",
+  "edition":"custom",
+  "otherNight":50,
+  "otherNightReminder":"Ask the Twins to select a player: reveal to them two types, including the type of that player.",
+  "setup":false,
+  "name":"Twins",
+  "team":"townsfolk",
+  "ability":"Each night*, choose a player (different to last night): you learn that they are one of two types (Townsfolk, Outsider, Minion, Demon.)"
+},
+{
+  "id":"nanaDog",
+  "edition":"custom",
+  "otherNight":1,
+  "otherNightReminder":"Ask if the Watchdog would like to select a player to watch over.",
+  "reminders":["Watchdog"],
+  "setup":false,
+  "name":"Watchdog",
+  "team":"townsfolk",
+  "ability":"Each night*, you may select a player (not yourself): if good, they are protected from the Demon, unless the Clockhand is pointing to them. If evil, they don't wake up tonight."
+},
+{
+  "id":"fairy",
+  "edition":"custom",
+  "setup":false,
+  "name":"Fairy",
+  "team":"outsider",
+  "ability":"The Clockhand skips you, and proceeds to the next player around the circle. Once per game, at night, name a role: if they are in play, and the player is dead, they are resurrected."
+},
+{
+  "id":"mermaids",
+  "edition":"custom",
+  "otherNight":10,
+  "otherNightReminder":"The Mermaids may point to a non-neighboring player: that player trades seat with whichever neighbor moves them nearer to the Mermaids.",
+  "setup":false,
+  "name":"Mermaids",
+  "team":"outsider",
+  "ability":"Each night*, you may choose a player who is not one of your neighbors: they trade seats to be one seat nearer to you."
+},
+{
+  "id":"rufioRooster",
+  "edition":"custom",
+  "setup":true,
+  "name":"Rooster",
+  "team":"outsider",
+  "ability":"The first time an Outsider dies, you gain their ability. If the Pan is in play, and dies, you become the Pan, and gain their ability (and therefore will no longer gain an Outsider ability as the Rooster.) [+1 Outsider]"
+},
+{
+  "id":"ticktock",
+  "edition":"custom",
+  "firstNight":15,
+  "firstNightReminder":"Reveal to the Tick Tock if the Clockhand is pointed at them: if it is, ask if they want to stop it.",
+  "otherNight":40,
+  "otherNightReminder":"Reveal to the Tick Tock if the Clockhand is pointed at them: if it is, ask if they want to stop it.",
+  "name":"Tick Tock",
+  "team":"outsider",
+  "ability":"At night, you learn if the Clockhand is pointed at you. If it is, you may choose to stop it (it will not advance tomorrow.)"
+},
+{
+  "id":"gentlemanStarkey",
+  "edition":"custom",
+  "otherNight":30,
+  "otherNightReminder":"Ask the Gentleman Starkey how many seats they're advancing the Clockhand, clockwise.",
+  "setup":false,
+  "name":"Gentleman Starkey",
+  "team":"minion",
+  "ability":"Once per game, at night, you may advance the Clockhand any number of seats."
+},
+{
+  "id":"captainHook",
+  "edition":"custom",
+  "otherNight":35,
+  "otherNightReminder":"The Hook may point to a player: if they're good, wake that player, and ask them to select a player with whom to trade seats.",
+  "reminders":["Poisoned"],
+  "setup":false,
+  "name":"Hook",
+  "team":"minion",
+  "ability":"Each night*, choose a player: if good, they may trade seats with a player of their choosing, but might be poisoned if they choose to do so. The first time you are executed, you might not die."
+},
+{
+  "id":"pirateCrew",
+  "edition":"custom",
+  "otherNight":5,
+  "otherNightReminder":"Remove the poisoned token from the previously-selected player. The Pirate points to a player: add the poisoned token to that player.",
+  "reminders":["Poisoned"],
+  "setup":false,
+  "name":"Pirate",
+  "team":"minion",
+  "ability":"Each night*, choose a player: they are poisoned tonight and tomorrow day."
+},
+{
+  "id":"smee",
+  "edition":"custom",
+  "setup":false,
+  "name":"Smee",
+  "team":"minion",
+  "ability":"While you still hold your vote token, vote tokens might not be collected from any other players by the Storyteller (after their votes have been counted.)"
+},
+{
+  "id":"pirateCaptain",
+  "edition":"custom",
+  "firstNight":4,
+  "firstNightReminder":"Ask the Captain to select a starting position for the Clockhand.",
+  "otherNight":19,
+  "otherNightReminder":"The Captain points to a player. That player dies. Reveal to whom the Clockhand is currently pointing, and ask if the Captain would like to poison them.",
+  "reminders": ["Clockhand","Poisoned"],
+  "setup":false,
+  "name":"Captain",
+  "team":"demon",
+  "ability":"On the first night, select the starting position of the Clockhand. Each night* , choose a player: they die. Each night*, learn which player the Clockhand is pointing to: if it is a player other than you, you may choose to poison them."
+},
+{
+  "id":"crocodile",
+  "edition":"custom",
+  "firstNight":5,
+  "firstNightReminder":"Choose a good player to select a starting position for the Clockhand.",
+  "otherNight":20,
+  "otherNightReminder":"The Crocodile points to a player. That player dies. Reveal to whom the Clockhand is currently pointing, and ask if the Crocodile would like to devour them. Also ask if they'd like to restore a player they devoured to life.",
+  "reminders": ["Clockhand"],
+  "setup":false,
+  "name":"Crocodile",
+  "team":"demon",
+  "ability":"On the first night, the Storyteller chooses a good player to select the starting position of the Clockhand. Each night*, choose a player: they die. Each night*, learn which player the Clockhand is pointing to: if it is a player other than you, you may choose to also kill them. Once per game, you may return a player you previously killed to life."
+},
+{
+  "id":"pansShadow",
+  "edition":"custom",
+  "firstNight":6,
+  "firstNightReminder":"Ask the Shadow to select a starting position for the Clockhand.",
+  "otherNight":21,
+  "otherNightReminder":"The Shadow points to a player. That player is now evil, and any player previously-selected by the Shadow dies. Reveal to whom the Clockhand is currently pointing, and ask if the Shadow would like them to die.",
+  "reminders": ["Clockhand","Evil"],
+  "setup":false,
+  "name":"Shadow",
+  "team":"demon",
+  "ability":"On the first night, select the starting position of the Clockhand. Each night*, choose a player: they become evil, and win with the evil team. Any player you have previously selected to become evil, dies. Each night*, learn which player the Clockhand is pointing to: if it is a player other than you, you may choose to kill them."
+}
+]
