@@ -26,14 +26,14 @@
   "id":"wendyDarling",
   "edition":"custom",
   "firstNight":25,
-  "firstNightReminder":"Reveal to the Darling the role of one Outsider in play, and how many seats the Clockhand is away from that Outsider.",
+  "firstNightReminder":"Reveal to the Darling the character of one Outsider in play, and how many seats the Clockhand is away from that Outsider.",
   "otherNight":45,
   "otherNightReminder":"Reveal to the Darling how many seats the Clockhand is away from their Outsider.",
   "reminders":["Darling's Outsider"],
   "setup":true,
   "name":"Darling",
   "team":"townsfolk",
-  "ability":"You start knowing 1 Outsider role in play. Each night, you learn how many seats the Clockhand is away from that Outsider. [Minimum 1 Outsider]"
+  "ability":"You start knowing 1 Outsider character in play. Each night, you learn how many seats the Clockhand is away from that Outsider. [Minimum 1 Outsider]"
 },
 {
   "id":"lizaMaid",
@@ -124,7 +124,7 @@
   "setup":false,
   "name":"Fairy",
   "team":"outsider",
-  "ability":"The Clockhand skips you, and proceeds to the next player around the circle. Once per game, at night, name a role: if they are in play, and the player is dead, they are resurrected."
+  "ability":"The Clockhand skips you, and proceeds to the next player around the circle. Once per game, at night, name a character: if they are in play, and the player is dead, they are resurrected."
 },
 {
   "id":"mermaids",
