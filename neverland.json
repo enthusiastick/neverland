@@ -216,6 +216,7 @@
 },
 {
   "id":"pirateCaptain",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/captain.png",
   "edition":"custom",
   "firstNight":4,
   "firstNightReminder":"Ask the Captain to select a starting position for the Clockhand.",
@@ -229,6 +230,7 @@
 },
 {
   "id":"crocodile",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/crocodile.png",
   "edition":"custom",
   "firstNight":5,
   "firstNightReminder":"Choose a good player to select a starting position for the Clockhand.",
@@ -242,6 +244,7 @@
 },
 {
   "id":"pansShadow",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/shadow.png",
   "edition":"custom",
   "firstNight":6,
   "firstNightReminder":"Ask the Shadow to select a starting position for the Clockhand.",
