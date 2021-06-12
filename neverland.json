@@ -131,6 +131,7 @@
 },
 {
   "id":"fairy",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/fairy.png",
   "edition":"custom",
   "setup":false,
   "name":"Fairy",
@@ -139,6 +140,7 @@
 },
 {
   "id":"mermaids",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/mermaids.png",
   "edition":"custom",
   "otherNight":10,
   "otherNightReminder":"The Mermaids may point to a non-neighboring player: that player trades seat with whichever neighbor moves them nearer to the Mermaids.",
@@ -149,6 +151,7 @@
 },
 {
   "id":"rufioRooster",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/rooster.png",
   "edition":"custom",
   "setup":true,
   "name":"Rooster",
@@ -157,6 +160,7 @@
 },
 {
   "id":"ticktock",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/ticktock.png",
   "edition":"custom",
   "firstNight":15,
   "firstNightReminder":"Reveal to the Tick Tock if the Clockhand is pointed at them: if it is, ask if they want to stop it.",
