@@ -24,6 +24,7 @@
 },
 {
   "id":"wendyDarling",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/darling.png",
   "edition":"custom",
   "firstNight":25,
   "firstNightReminder":"Reveal to the Darling the character of one Outsider in play, and how many seats the Clockhand is away from that Outsider.",
@@ -57,6 +58,7 @@
 },
 {
   "id":"peterPan",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/pan.png",
   "edition":"custom",
   "otherNight":15,
   "otherNightReminder":"The Pan may point to a player: if they're good, wake that player, and ask them to select a player with whom to trade seats.",
@@ -109,6 +111,7 @@
 },
 {
   "id":"nanaDog",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/watchdog.png",
   "edition":"custom",
   "otherNight":1,
   "otherNightReminder":"Ask if the Watchdog would like to select a player to watch over.",
