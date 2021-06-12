@@ -14,6 +14,7 @@
 },
 {
   "id":"curlyCubby",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/curly.png",
   "edition":"custom",
   "otherNight":55,
   "otherNightReminder":"Disclose to the Curly how many votes, in-total, were cast by non-Townsfolk today.",
@@ -93,6 +94,7 @@
 },
 {
   "id":"tootles",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/tootles.png",
   "edition":"custom",
   "firstNight":20,
   "firstNightReminder":"Indicate to the Tootles the total number of living Townsfolk in play.",
@@ -105,6 +107,7 @@
 },
 {
   "id":"twins",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/twins.png",
   "edition":"custom",
   "otherNight":50,
   "otherNightReminder":"Ask the Twins to select a player: reveal to them two types, including the type of that player.",
