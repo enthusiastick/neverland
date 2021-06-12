@@ -38,6 +38,7 @@
 },
 {
   "id":"lizaMaid",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/liza.png",
   "edition":"custom",
   "setup":false,
   "name":"Liza",
@@ -46,6 +47,7 @@
 },
 {
   "id":"nibs",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/nibs.png",
   "edition":"custom",
   "firstNight":7,
   "firstNightReminder": "Wake an evil player, and inform them the Nibs is in play.",
@@ -69,6 +71,7 @@
 },
 {
   "id":"slightly",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/slightly.png",
   "edition":"custom",
   "setup":false,
   "name":"Slightly",
@@ -77,6 +80,7 @@
 },
 {
   "id":"tigerLily",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/tigerlily.png",
   "edition":"custom",
   "firstNight":10,
   "firstNightReminder":"The Tiger Lily may point to a player: if that player is not a Townsfolk, they die.",
