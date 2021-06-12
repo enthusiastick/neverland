@@ -6,6 +6,7 @@
 },
 {
   "id":"clockHand",
+  "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/clockhand.png",
   "edition":"custom",
   "setup":false,
   "name":"Clockhand",
