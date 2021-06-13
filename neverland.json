@@ -2,7 +2,8 @@
 {
   "id":"_meta",
   "name": "Never Never Land",
-  "author": "enthusiastick"
+  "author": "enthusiastick",
+  "logo": "https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/neverland.png"
 },
 {
   "id":"clockHand",
