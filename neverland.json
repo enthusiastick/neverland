@@ -60,7 +60,7 @@
   "setup":false,
   "name":"Nibs",
   "team":"townsfolk",
-  "ability":"If you die at night, you learn how many seats the Clockhand is away from the Demon. 1 evil player knows the Nibs is in play."
+  "ability":"If you die at night, you learn how many seats the Clockhand is away from the Demon. 1 evil player knows that Nibs is in play."
 },
 {
   "id":"peterPan",
@@ -129,7 +129,7 @@
   "setup":false,
   "name":"Watchdog",
   "team":"townsfolk",
-  "ability":"Each night*, you may select a player (not yourself): if good, they are protected from the Demon, unless the Clockhand is pointing to them. If evil, they don't wake up tonight."
+  "ability":"Each night*, you may select a player (other than yourself): if good, they are protected from the Demon, unless the Clockhand is pointing to them. If evil, they don't wake up tonight."
 },
 {
   "id":"fairy",
@@ -160,7 +160,7 @@
   "setup":true,
   "name":"Rooster",
   "team":"outsider",
-  "ability":"The first time an Outsider dies, you gain their ability. If the Pan is in play, and dies, you become the Pan, and gain their ability (and therefore will no longer gain an Outsider ability as the Rooster.) [+1 Outsider]"
+  "ability":"The first time an Outsider dies, you gain their ability. If Pan is in play, and dies, you become Pan, and gain their ability (and therefore will no longer gain an Outsider ability as the Rooster.) [+1 Outsider]"
 },
 {
   "id":"ticktock",
@@ -231,12 +231,12 @@
   "firstNight":4,
   "firstNightReminder":"Ask the Captain to select a starting position for the Clockhand.",
   "otherNight":30,
-  "otherNightReminder":"The Captain points to a player. That player dies. Reveal to whom the Clockhand is currently pointing, and ask if the Captain would like to poison them.",
+  "otherNightReminder":"Reveal to whom the Clockhand is currently pointing, and ask if the Captain would like to poison them. Then, the Captain points to a player; that player dies.",
   "reminders": ["Poisoned"],
   "setup":false,
   "name":"Captain",
   "team":"demon",
-  "ability":"On the first night, select the starting position of the Clockhand. Each night* , choose a player: they die. Each night*, learn which player the Clockhand is pointing to: if it is a player other than you, you may choose to poison them."
+  "ability":"On the first night, select the starting position of the Clockhand. Each night*, learn which player the Clockhand is pointing to: if it is a player other than you, you may choose to poison them. Each night* , choose a player: they die."
 },
 {
   "id":"crocodile",
@@ -245,12 +245,12 @@
   "firstNight":5,
   "firstNightReminder":"Choose a good player to select a starting position for the Clockhand.",
   "otherNight":35,
-  "otherNightReminder":"The Crocodile points to a player. That player dies. Reveal to whom the Clockhand is currently pointing, and ask if the Crocodile would like to devour them. Also ask if they'd like to restore a player they devoured to life.",
+  "otherNightReminder":"Reveal to whom the Clockhand is currently pointing, and ask if the Crocodile would like to devour them. Then, the Crocodile points to a player; that player dies. Also ask if they'd like to restore a player they devoured to life.",
   "reminders": ["Clockhand"],
   "setup":false,
   "name":"Crocodile",
   "team":"demon",
-  "ability":"On the first night, the Storyteller chooses a good player to select the starting position of the Clockhand. Each night*, choose a player: they die. Each night*, learn which player the Clockhand is pointing to: if it is a player other than you, you may choose to also kill them. Once per game, you may return a player you previously killed to life."
+  "ability":"On the first night, the Storyteller chooses a good player to select the starting position of the Clockhand. Each night*, learn which player the Clockhand is pointing to: if it is a player other than you, you may choose to also kill them. Each night*, choose a player: they die. Once per game, you may return a player you previously killed to life."
 },
 {
   "id":"pansShadow",
@@ -259,11 +259,11 @@
   "firstNight":6,
   "firstNightReminder":"Ask the Shadow to select a starting position for the Clockhand.",
   "otherNight":40,
-  "otherNightReminder":"The Shadow points to a player. That player is now evil, and any player previously-selected by the Shadow dies. Reveal to whom the Clockhand is currently pointing, and ask if the Shadow would like them to die.",
+  "otherNightReminder":"Reveal to whom the Clockhand is currently pointing, and ask if the Shadow would like them to die. Then, the Shadow points to a player; that player is now evil, and any player previously-selected by the Shadow dies.",
   "reminders": ["Evil"],
   "setup":false,
   "name":"Shadow",
   "team":"demon",
-  "ability":"On the first night, select the starting position of the Clockhand. Each night*, choose a player: they become evil, and win with the evil team. Any player you have previously selected to become evil, dies. Each night*, learn which player the Clockhand is pointing to: if it is a player other than you, you may choose to kill them."
+  "ability":"On the first night, select the starting position of the Clockhand. Each night*, learn which player the Clockhand is pointing to: if it is a player other than you, you may choose to kill them. Each night*, choose a player: they become evil, and win with the evil team. Any player you have previously selected to become evil, dies."
 }
 ]
