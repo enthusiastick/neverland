@@ -140,7 +140,7 @@
   "setup":false,
   "name":"Fairy",
   "team":"outsider",
-  "ability":"The Clockhand skips you, and proceeds to the next player around the circle. Once per game, at night, name a character: if they are in play, and the player is dead, they are resurrected."
+  "ability":"The Clockhand skips you, and proceeds to your clockwise neighbor. Once per game, at night, name a character: if they are in play, and the player is dead, they are resurrected."
 },
 {
   "id":"mermaids",
@@ -160,7 +160,7 @@
   "setup":true,
   "name":"Rooster",
   "team":"outsider",
-  "ability":"The first time an Outsider dies, you gain their ability. If Pan is in play, and dies, you become Pan, and gain their ability (and therefore will no longer gain an Outsider ability as the Rooster.) [+1 Outsider]"
+  "ability":"The first time an Outsider dies, you gain their ability. If Pan is in play, and dies, you become Pan, and gain their ability (and therefore will no longer gain an Outsider ability as Rooster.) [+1 Outsider]"
 },
 {
   "id":"ticktock",
@@ -245,12 +245,12 @@
   "firstNight":5,
   "firstNightReminder":"Choose a good player to select a starting position for the Clockhand.",
   "otherNight":35,
-  "otherNightReminder":"Reveal to whom the Clockhand is currently pointing, and ask if the Crocodile would like to devour them. Then, the Crocodile points to a player; that player dies. Also ask if they'd like to restore a player they devoured to life.",
+  "otherNightReminder":"Reveal to whom the Clockhand is currently pointing, and ask if the Crocodile would like to devour them. Then, the Crocodile points to a player; that player dies. Also ask if they'd like to restore a player they killed or devoured to life.",
   "reminders": ["Clockhand"],
   "setup":false,
   "name":"Crocodile",
   "team":"demon",
-  "ability":"On the first night, the Storyteller chooses a good player to select the starting position of the Clockhand. Each night*, learn which player the Clockhand is pointing to: if it is a player other than you, you may choose to also kill them. Each night*, choose a player: they die. Once per game, you may return a player you previously killed to life."
+  "ability":"On the first night, the Storyteller chooses a good player to select the starting position of the Clockhand. Each night*, learn which player the Clockhand is pointing to: if it is a player other than you, you may choose to kill them. Each night*, choose a player: they die. Once per game, you may return a player you previously killed to life."
 },
 {
   "id":"pansShadow",
