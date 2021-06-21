@@ -183,7 +183,7 @@
   "setup":false,
   "name":"Gentleman Starkey",
   "team":"minion",
-  "ability":"Once per game, at night, you may advance the Clockhand any number of seats."
+  "ability":"Each night*, you may advance the Clockhand any number of seats, clockwise. If you do, it will not advance tomorrow day."
 },
 {
   "id":"captainHook",
