@@ -248,7 +248,7 @@
   "firstNightReminder":"Choose a good player to select a starting position for the Clockhand.",
   "otherNight":35,
   "otherNightReminder":"Reveal to whom the Clockhand is currently pointing, and ask if the Crocodile would like to devour them. Then, the Crocodile points to a player; that player dies. Also ask if they'd like to restore a player they killed or devoured to life.",
-  "reminders": ["Clockhand"],
+  "reminders": ["Set the Clock"],
   "setup":false,
   "name":"Crocodile",
   "team":"demon",
