@@ -198,19 +198,19 @@
   "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/hook.png",
   "edition":"custom",
   "otherNight":25,
-  "otherNightReminder":"The Hook may point to a player: wake that player, and ask them to select a player with whom to trade seats.",
+  "otherNightReminder":"The previously-poisoned player is no longer poisoned. The Hook may point to a player: wake that player, and ask them to select a player with whom to trade seats.",
   "reminders":["Poisoned"],
   "setup":false,
   "name":"Hook",
   "team":"minion",
-  "ability":"Each night*, choose a player: they may trade seats with a player of their choosing, but might be poisoned if they choose to do so. The first time you are executed, you might not die."
+  "ability":"Each night*, choose a player: they may trade seats with a player of their choosing, but might be poisoned tonight and tomorrow day if they choose to do so. The first time you are executed, you might not die."
 },
 {
   "id":"pirateCrew",
   "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/pirate.png",
   "edition":"custom",
   "firstNight": 20,
-  "firstNightReminder": "Show 1 character token of a good player not in play that you did not show to the demon. The Pirate points to a player. That player is poisoned.",
+  "firstNightReminder": "Show 1 character token of a good player not in play that you did not show to the demon.",
   "otherNight":10,
   "otherNightReminder":"The previously-poisoned player is no longer poisoned. The Pirate points to a player: that player is poisoned.",
   "reminders":["Poisoned"],
@@ -235,12 +235,12 @@
   "firstNight":5,
   "firstNightReminder":"Ask the Captain to select a starting position for the Clockhand.",
   "otherNight":30,
-  "otherNightReminder":"Reveal to whom the Clockhand is currently pointing, and ask if the Captain would like to poison them. Then, the Captain points to a player; that player dies.",
+  "otherNightReminder":"Reveal to whom the Clockhand is currently pointing, and ask if the Captain would like to poison them. If they do so, the previously-poisoned player is no longer poisoned. Then, the Captain points to a player; that player dies.",
   "reminders": ["Dead","Poisoned"],
   "setup":false,
   "name":"Captain",
   "team":"demon",
-  "ability":"On the first night, select the starting position of the Clockhand. Each night*, learn which player the Clockhand is pointing to: if it is a player other than you, you may choose to poison them. Each night* , choose a player: they die."
+  "ability":"On the first night, select the starting position of the Clockhand. Each night*, learn which player the Clockhand is pointing to: you may choose to poison them. If you do so, any player you previously selected is no longer poisoned. Each night* , choose a player: they die."
 },
 {
   "id":"crocodile",
@@ -268,6 +268,6 @@
   "setup":false,
   "name":"Shadow",
   "team":"demon",
-  "ability":"On the first night, select the starting position of the Clockhand. Each night*, learn which player the Clockhand is pointing to: if it is a player other than you, you may choose to kill them. Each night*, choose a player: they become evil, and win with the evil team. Any player you have previously selected to become evil, dies."
+  "ability":"On the first night, select the starting position of the Clockhand. Each night*, learn which player the Clockhand is pointing to: you may choose to kill them. Each night*, choose a player: they become evil, and win with the evil team. Any player you have previously selected to become evil, dies."
 }
 ]
