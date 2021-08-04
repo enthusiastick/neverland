@@ -77,6 +77,7 @@
   "id":"slightly",
   "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/slightly.png",
   "edition":"custom",
+  "reminders":["No ability"],
   "setup":false,
   "name":"Slightly",
   "team":"townsfolk",
@@ -90,6 +91,7 @@
   "firstNightReminder":"The Tiger Lily may point to a player: if that player is not a Townsfolk, they die.",
   "otherNight":45,
   "otherNightReminder":"The Tiger Lily may point to a player: if that player is not a Townsfolk, they die.",
+  "reminders":["No ability"],
   "setup":false,
   "name":"Tiger Lily",
   "team":"townsfolk",
@@ -124,12 +126,12 @@
   "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/watchdog.png",
   "edition":"custom",
   "otherNight":1,
-  "otherNightReminder":"Ask if the Watchdog would like to select a player to watch over.",
+  "otherNightReminder":"Ask the Watchdog to indicate which player they're watching over.",
   "reminders":["Watchdog"],
   "setup":false,
   "name":"Watchdog",
   "team":"townsfolk",
-  "ability":"Each night*, you may select a player (other than yourself): if good, they are protected from the Demon, unless the Clockhand is pointing to them. If evil, they don't wake up tonight."
+  "ability":"Each night*, select a player (other than yourself): if good, they are protected from the Demon, unless the Clockhand is pointing to them. If evil, they don't wake up tonight."
 },
 {
   "id":"fairy",
@@ -247,12 +249,12 @@
   "firstNight":10,
   "firstNightReminder":"Choose a good player to select a starting position for the Clockhand.",
   "otherNight":35,
-  "otherNightReminder":"Reveal to whom the Clockhand is currently pointing, and ask if the Crocodile would like to devour them. Then, the Crocodile points to a player; that player dies. Also ask if they'd like to restore a player they killed or devoured to life.",
-  "reminders": ["Dead","Devoured","Set the Clock"],
+  "otherNightReminder":"Reveal to whom the Clockhand is currently pointing, and ask if the Crocodile would like to kill them. Then, the Crocodile points to a player; that player dies. Also ask if they'd like to restore a player they killed to life.",
+  "reminders": ["Dead","Set the Clock"],
   "setup":false,
   "name":"Crocodile",
   "team":"demon",
-  "ability":"On the first night, the Storyteller chooses a good player to select the starting position of the Clockhand. Each night*, learn which player the Clockhand is pointing to: if it is a player other than you, you may choose to kill them. Each night*, choose a player: they die. Once per game, you may return a player you previously killed to life."
+  "ability":"On the first night, the Storyteller chooses a good player to select the starting position of the Clockhand. Each night*, learn which player the Clockhand is pointing to: you may choose to kill them. Each night*, choose a player: they die. Once per game, you may return a player you previously killed to life."
 },
 {
   "id":"pansShadow",
