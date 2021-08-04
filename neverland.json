@@ -127,7 +127,7 @@
   "edition":"custom",
   "otherNight":1,
   "otherNightReminder":"Ask the Watchdog to indicate which player they're watching over.",
-  "reminders":["Watchdog"],
+  "reminders":["Watched Over"],
   "setup":false,
   "name":"Watchdog",
   "team":"townsfolk",
