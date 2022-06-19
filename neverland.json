@@ -95,7 +95,7 @@
   "setup":false,
   "name":"Tiger Lily",
   "team":"townsfolk",
-  "ability":"Once per game, at night, choose a player (other than yourself): if they are not a Townsfolk, they die. While you are alive, this ability cannot malfunction (e.g. Tiger Lily is immune to poison.)"
+  "ability":"Once per game, at night, choose a player (other than yourself): if they are not a Townsfolk, they die. While you are alive, you remain healthy and sober (e.g. Tiger Lily is immune to poison.)"
 },
 {
   "id":"tootles",
