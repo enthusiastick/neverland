@@ -2,6 +2,8 @@
 
 **JSON Link:** [https://raw.githubusercontent.com/enthusiastick/neverland/main/neverland.json](https://raw.githubusercontent.com/enthusiastick/neverland/main/neverland.json)
 
+*& Check out my [script hub](https://botc.eben.games/ "Blood on the Clocktower scripts by eben")!*
+
 ### Fabled
 
 Icon | Character | Text
