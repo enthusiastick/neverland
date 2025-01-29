@@ -189,12 +189,6 @@
 },
 {
   "id":"captainHook",
-  "hatred":[
-    {
-      "id":"peterPan",
-      "reason":"If Hook and Pan are both in play, the Storyteller should randomize in which order their abilities to offer seat trades are processed."
-    }
-  ],
   "image":"https://raw.githubusercontent.com/enthusiastick/neverland/main/assets/hook.png",
   "edition":"custom",
   "otherNight":25,
