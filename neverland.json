@@ -268,6 +268,6 @@
   "setup":false,
   "name":"Shadow",
   "team":"demon",
-  "ability":"On the first night, select the starting position of the Clockhand. Each night*, learn which player the Clockhand is pointing to: you may choose to kill them. Each night*, choose a player: they become evil, and win with the evil team. Any player you have previously selected to become evil, dies."
+  "ability":"On the first night, select the starting position of the Clockhand. Each night*, learn which player the Clockhand is pointing to: you may choose to kill them. Each night*, you may choose a player: they become evil, and win with the evil team. Any player you have previously selected to become evil turns good then dies."
 }
 ]
